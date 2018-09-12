@@ -19,14 +19,20 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/commerce": "^2.9",
+        "drupal/commerce_paypal": "^1.0@beta",
+        "drupal/commerce_stripe": "^1.0@beta",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
+        "drupal/token": "^1.4",
+        "drupal/webform": "^5.0@RC",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
+        "drupal/devel": "^1.2",
         "webflo/drupal-core-require-dev": "^8.6.0"
     },
     "conflict": {
@@ -58,6 +64,11 @@
         ]
     },
     "extra": {
+        "patches": {
+            "drupal/2810723": {
+                "Allow order types to have no carts": "https://www.drupal.org/files/issues/2018-03-16/commerce-direct-checkout-50.patch"
+            }
+        },
         "patchLevel": {
             "drupal/core": "-p2"
         },
