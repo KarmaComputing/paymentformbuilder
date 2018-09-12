@@ -1,0 +1,14 @@
+uuid: e6d8725d-1e0d-442c-afe3-885ad05792b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.product_manager
+  module:
+    - user
+id: user_remove_role_action.product_manager
+label: 'Remove the Product Manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: product_manager

@@ -1,0 +1,25 @@
+uuid: 14677ef4-7153-4109-be7d-8aff283276c7
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform_demo_region_contact
+  module:
+    - webform_access
+  theme:
+    - bartik
+_core:
+  default_config_hash: h2waOt12YyMtgsOd4ZvjC-8DXkvqvCg_5bOyL6aJr6Q
+id: bartik_webform_demo_region
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: webform_access_group_entity
+settings:
+  id: webform_access_group_entity
+  label: 'My Regional Webforms'
+  provider: webform_access
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: dc7166bc-779b-49f9-9532-4718f91c6938
+langcode: en
+status: true
+dependencies: {  }
+id: demo_region_us_west_employee
+label: 'United States: West: Employee'
+description: null
+type: demo_region_employee
+permissions:
+  - view_any
+  - update_any

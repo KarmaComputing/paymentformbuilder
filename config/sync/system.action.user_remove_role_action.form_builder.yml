@@ -1,0 +1,14 @@
+uuid: 24602ed2-1fb9-4489-ab1f-93aebec472ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.form_builder
+  module:
+    - user
+id: user_remove_role_action.form_builder
+label: 'Remove the Form Builder role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: form_builder

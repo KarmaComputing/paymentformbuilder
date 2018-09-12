@@ -1,0 +1,14 @@
+uuid: 3bd2fb51-8fab-4b62-877c-5dd343ed2baa
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.demo_region
+  module:
+    - user
+id: user_add_role_action.demo_region
+label: 'Add the Demo region role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: demo_region

@@ -1,0 +1,14 @@
+uuid: ccd830bc-4bf3-40c7-9baf-77303a572a0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.form_builder
+  module:
+    - user
+id: user_add_role_action.form_builder
+label: 'Add the Form Builder role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: form_builder

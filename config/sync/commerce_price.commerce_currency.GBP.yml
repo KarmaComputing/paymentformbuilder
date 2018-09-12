@@ -1,0 +1,9 @@
+uuid: f1cdc6ce-deca-479f-9418-29d0d8018073
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: GBP
+name: 'British Pound'
+numericCode: '826'
+symbol: £
+fractionDigits: 2

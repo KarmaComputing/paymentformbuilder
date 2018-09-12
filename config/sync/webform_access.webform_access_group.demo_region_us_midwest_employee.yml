@@ -1,0 +1,11 @@
+uuid: 0924660b-e1e0-43d5-8b4b-87b3a20dcf0f
+langcode: en
+status: true
+dependencies: {  }
+id: demo_region_us_midwest_employee
+label: 'United States: Midwest: Employee'
+description: null
+type: demo_region_employee
+permissions:
+  - view_any
+  - update_any

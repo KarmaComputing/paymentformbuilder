@@ -1,0 +1,26 @@
+uuid: d8c0cef1-cb6f-491d-bef6-a4257cbbf498
+langcode: en
+status: true
+dependencies: {  }
+id: form_builder
+label: 'Form Builder'
+weight: 4
+is_admin: null
+permissions:
+  - 'access own webform configuration'
+  - 'access webform overview'
+  - 'access webform submission log'
+  - 'access webform submission user'
+  - 'create webform'
+  - 'create webform content'
+  - 'delete own webform'
+  - 'delete own webform content'
+  - 'delete own webform submission'
+  - 'delete webform revisions'
+  - 'edit own webform'
+  - 'edit own webform content'
+  - 'edit own webform submission'
+  - 'revert webform revisions'
+  - 'view any webform submission'
+  - 'view own webform submission'
+  - 'view webform revisions'
