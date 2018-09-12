@@ -1,0 +1,8 @@
+name: 'Webform product element'
+type: module
+description: 'Provides a product Webform element.'
+package: Karma
+core: 8.x
+dependencies:
+  - 'webform:webform'
+  - commerce

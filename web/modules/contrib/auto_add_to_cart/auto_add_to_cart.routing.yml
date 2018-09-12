@@ -1,0 +1,8 @@
+auto_add_to_cart.list:
+    path: '/add/product/{productId}'
+    defaults: 
+        _controller: '\Drupal\auto_add_to_cart\Controller\CartsController::addToCart'
+        _title: ''
+    requirements:
+        _permission: 'access content'
+        _productId: \d+

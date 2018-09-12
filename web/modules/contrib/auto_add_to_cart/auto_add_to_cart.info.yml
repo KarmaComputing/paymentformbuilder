@@ -1,0 +1,6 @@
+name: Auto Add To Cart
+type: module
+description: 'Auto add an item to the shopping cart programatically'
+package: Karma 
+core: '8.x'
+dependencies: commerce
